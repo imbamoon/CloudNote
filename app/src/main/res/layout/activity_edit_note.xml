@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.example.administraor.cloudnote.activity.activity.activity.activity_editNote">
+
+    <include
+        android:id="@+id/include_noteBar"
+        layout="@layout/edit_toolbar" />
+
+    <com.rengwuxian.materialedittext.MaterialEditText
+        android:id="@+id/titleEdit"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/include_noteBar"
+        android:layout_marginEnd="10dp"
+        android:layout_marginStart="10dp"
+        android:hint="@string/edit_hint"
+        app:met_baseColor="#000000"
+        app:met_errorColor="#ff0000"
+        app:met_floatingLabel="highlight"
+        app:met_floatingLabelText="@string/edit_label"
+        app:met_maxCharacters="50"
+        app:met_primaryColor="#20b2aa"
+        app:met_singleLineEllipsis="true" />
+
+    <com.rengwuxian.materialedittext.MaterialEditText
+        android:id="@+id/contentEdit"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_below="@id/titleEdit"
+        android:layout_marginEnd="10dp"
+        android:layout_marginStart="10dp"
+        android:gravity="start"
+        android:hint="@string/edit2_hint"
+        app:met_baseColor="#000000"
+        app:met_floatingLabel="highlight"
+        app:met_floatingLabelText="@string/edit2_label"
+        app:met_primaryColor="#20b2aa" />
+
+</RelativeLayout>
+

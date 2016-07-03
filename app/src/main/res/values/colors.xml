@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#303F9F</color>
+    <color name="colorAccent">#FF4081</color>
+    <color name="window_background">#FFF5F5F5</color>
+    <color name="primary">#ffcc00</color>
+    <color name="primary_pressed">#ff9933</color>
+    <color name="ripple">#ccffcc</color>
+    <color name="barPrimary">#20b2aa</color>
+    <color name="textColorPrimary">#ff9933</color>
+    <color name="windowBackground">@android:color/white</color>
+
+    <color name="base">@android:color/black</color>
+    <color name="hint">@android:color/black</color>
+    <color name="arrow">@android:color/black</color>
+    <color name="highlight">@android:color/black</color>
+    <color name="error">@android:color/holo_red_dark</color>
+    <color name="floating_label">@android:color/black</color>
+
+
+</resources>

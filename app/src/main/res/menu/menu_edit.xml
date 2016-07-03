@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:context=".MainActivity">
+
+    <item
+        android:id="@+id/add_photo"
+        android:icon="@drawable/add_photo"
+        android:orderInCategory="1"
+        android:title="add a photo"
+        app:showAsAction="ifRoom"
+        />
+
+
+    <item
+        android:id="@+id/add_video"
+        android:icon="@mipmap/add_video"
+        android:orderInCategory="1"
+        android:title="add a video"
+        app:showAsAction="ifRoom" />
+
+    <item
+        android:id="@+id/note_save"
+        android:icon="@drawable/save"
+        android:orderInCategory="1"
+        android:title="save"
+        app:showAsAction="ifRoom" />
+
+</menu>

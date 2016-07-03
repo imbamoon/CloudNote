@@ -1,0 +1,24 @@
+<resources>
+    <string name="app_name">云笔记</string>
+    <string name="drawer_open">打开</string>
+    <string name="drawer_close">关闭</string>
+    <string name="exit_app">再按一次退出程序</string>
+    <string name="edit_hint">请输入标题</string>
+    <string name="edit_label">请输入标题</string>
+    <string name="edit2_hint">请输入内容</string>
+    <string name="edit2_label">请输入内容</string>
+    <string name="note_tab">笔记</string>
+    <string name="set_tab">设置</string>
+    <string name="no_internet">网络更新失败</string>
+    <string name="update_success">更新成功</string>
+    <string name="update_fail">更新失败</string>
+    <string name="username">账号</string>
+    <string name="username_hint">请输入账号</string>
+    <string name="psword">密码</string>
+    <string name="psword_hint">请输入密码</string>
+    <string name="login">登陆</string>
+    <string name="register">注册</string>
+    <string name="repsword">确认密码</string>
+    <string name="repsword_hint">请重复密码</string>
+    <string name="back">返回</string>
+</resources>
